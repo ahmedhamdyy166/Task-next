@@ -4,7 +4,7 @@ import React from 'react'
 import { useFormik } from 'formik';
 import Link from 'next/link';
 
-export default function signUp() {
+export default function SignUp() {
   const formik = useFormik({
     initialValues: {
       name:'',
